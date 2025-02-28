@@ -97,11 +97,11 @@ npx hardhat run scripts/deploy.js --network sepolia
 
 #### Example Output:
 ```
-Deploying contracts with the account: 0x5805f7d88a125bBb18C9628dA8b57f52d4Bd5003
-Deployer ETH balance: 0.095650978121781956
-UtilityToken deployed to: 0xDCE385a115dc0d8f0510d93932a2aBA5DA9d613a
-RealEstateManager deployed to: 0xAd107f031451BbbEC694d11a311972cD8A1E03F7
-Marketplace deployed to: 0xf7f00EFb273A8AD1e77fACa0f66A25A262238711
+Deploying contracts with the account: 0x
+Deployer ETH balance: 
+UtilityToken deployed to: 0x
+RealEstateManager deployed to: 0x
+Marketplace deployed to: 0x
 RentalContract deployed to: 0x[NewRentalAddress]
 Escrow deployed to: 0x[NewEscrowAddress]
 ```
