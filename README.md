@@ -82,7 +82,7 @@ Ensure they match the versions provided in this project.
 
 ## Deployment
 
-### Deploying to Sepolia Testnet
+### Deploying to Sepolia and Lisk Testnet
 
 #### Compile Contracts:
 ```bash
@@ -95,23 +95,28 @@ Run the deployment script:
 npx hardhat run scripts/deploy.js --network sepolia
 ```
 
-#### Example Output:
+#### Deployed Contracts to Sepolia testnet:
 ```
-Deploying contracts with the account: 0x
-Deployer ETH balance: 
-UtilityToken deployed to: 0x
-RealEstateManager deployed to: 0x
-Marketplace deployed to: 0x
-RentalContract deployed to: 0x[NewRentalAddress]
-Escrow deployed to: 0x[NewEscrowAddress]
-```
-
-#### Deploy Only Updated RentalContract:
-```bash
-npx hardhat run scripts/deploy-rental-only.js --network sepolia
+Deploying contracts with the account: 0x5805f7d88a125bBb18C9628dA8b57f52d4Bd5003
+Deployer ETH balance: ___
+UtilityToken deployed to: 0x7923E0aF55FFA2e35B1aE4f6ce611D9CcE00e4Ca
+RealEstateManager deployed to: 0x577De3f61e22a9B9CEdCD40bcca4b0EdE566E384
+Marketplace deployed to: 0x78426F43f817c3F49DCEf4e47bE107390DE51C13
+RentalContract deployed to: 0xF1BaEAbAdcAdACDab5DB9C47997162D9CF9e6eCc
+Escrow deployed to: 0x4f3004140018F344cb2a42F698752188528A569C
 ```
 
+#### Deployed Contracts to Lisk Sepolia testnet:
+```
+Deploying contracts with the account: 0x5805f7d88a125bBb18C9628dA8b57f52d4Bd5003
+Deployer ETH balance: ___
+UtilityToken deployed to:0xd1D6Bee21BFf794B788D1D0656ED7AD93a3C452b
+RealEstateManager deployed to: 0x3857d74574299A5E8Ff3A13D2b956adb4d969Eb9
+Marketplace deployed to: 0x79341CC7546e28b46A58514b4cdB5D6560473C7c
+RentalContract deployed to: 0xEA6999B59C2E45051a1bB95842A207714aCC08F0
+Escrow deployed to: 0x2a1C1677DAB875425D0a3a0DeeDd1A6F2B751860
 ---
+
 
 ## Usage
 
