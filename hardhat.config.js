@@ -1,6 +1,6 @@
 require("@nomicfoundation/hardhat-toolbox");
 require("@nomicfoundation/hardhat-verify");
-require('dotenv').config({ path: ".env" });
+require("dotenv").config({ path: ".env" });
 
 console.log(process.env.ALCHEMY_TESTNET_RPC_URL);
 
@@ -12,10 +12,10 @@ module.exports = {
       url: process.env.ALCHEMY_TESTNET_RPC_URL, // Sepolia RPC from .env
       accounts: [process.env.PRIVATE_KEY], // Deployer private key from .env
     },
-    lisksepolia: { // Added Lisk Sepolia network
-      url: "https://rpc.sepolia.lisk.com", // Official Lisk Sepolia RPC URL
-      chainId: 4202, // Lisk Sepolia chain ID
-      accounts: [process.env.PRIVATE_KEY], // Same deployer account as Sepolia
+    lisksepolia: {
+      url: "https://rpc.sepolia-api.lisk.com", // Updated RPC URL
+      chainId: 4202,
+      accounts: [process.env.PRIVATE_KEY],
     },
   },
   etherscan: {
